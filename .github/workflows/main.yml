@@ -6,8 +6,8 @@ on:
   push:
     branches: [ master ]
 jobs:
-  terraform:
-    name: 'Terraform'
+  CICD:
+    name: 'Arch Insurance'
     env:
       GITHUB_TOKEN: ${{ secrets.NEW_TOKEN }}
       TF_ACTION_WORKING_DIR: .
