@@ -4,6 +4,7 @@ name: scp connection
 on:
   push:
     branches: [ master ]
+  workflow_dispatch:
 #jobs:
  # terraform:
   #  name: 'Terraform
