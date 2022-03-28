@@ -58,7 +58,7 @@ jobs:
         with:
           registry: https://abhinay.jfrog.io/artifactory/default-docker-virtual
           username: ${{ secrets.JFROG_USER_WRITER }}
-          password: ${{ secrets.JFROG_PASSWORD_WRITER }}
+          password: ${{ secrets.JFROG_PASSWORD_WRITER }} 
       -
         name: Build and push
         id: docker_build
