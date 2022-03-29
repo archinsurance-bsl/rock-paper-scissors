@@ -3,7 +3,7 @@
 name: scp connection
 on:
   push:
-    branches: [ master ]
+    branches: [ Test ]
   workflow_dispatch:
 #jobs:
  # terraform:
